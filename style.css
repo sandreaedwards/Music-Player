@@ -2,11 +2,24 @@
 box-sizing: border-box;
 }
 body{
-
+margin-left: 5%;
+margin-right: 5%;
 }
 video{
     position: fixed;
     width: 100%;
     height: auto;
     background-image: none;
+}
+.logo{
+    width: 60px;
+    height: auto;
+}
+.nav{
+ background-color: black;
+
+}
+.nav-link{
+    color: blueviolet;
+    margin-top: 10px;
 }
