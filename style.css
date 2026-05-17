@@ -1,0 +1,12 @@
+*{
+box-sizing: border-box;
+}
+body{
+
+}
+video{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-image: none;
+}
