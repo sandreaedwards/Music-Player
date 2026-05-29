@@ -1,25 +1,63 @@
-*{
+* {
 box-sizing: border-box;
 }
-body{
+
+body {
 margin-left: 5%;
 margin-right: 5%;
 }
-video{
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+.nav {
+ background-color: black; 
+}
+.navcolor {
+    color: rgb(103, 18, 182); 
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    color: #c700c7;
+    text-decoration: underline;
+}
+.headertxt {
+    text-align: center;
+    color: black;
+}
+.backvid {
     position: fixed;
     width: 100%;
     height: auto;
     background-image: none;
+    z-index: -1; /* Pushes the video to the very back */
 }
-.logo{
-    width: 60px;
-    height: auto;
-}
-.nav{
- background-color: black;
 
+@font-face {
+    font-family: 'ruby';
+    src: url('Chaos Aura.otf') format('woff2'),
+         url('Chaos Aura.otf') format('truetype');
+  
 }
-.nav-link{
-    color: blueviolet;
-    margin-top: 10px;
+
+@font-face {
+    font-family: 'bart';
+    src: url('Barcelona Nacional.ttf') format('woff2'),
+         url('Barcelona Nacional.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+    font-family: 'ruby';
+    letter-spacing: 3px;
+    font-size: 200px;
+}
+
+h1:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
